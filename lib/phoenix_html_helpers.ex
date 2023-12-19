@@ -1,4 +1,4 @@
-defmodule PhoenixHtmlHelpers do
+defmodule PhoenixHTMLHelpers do
   @moduledoc """
   Collection of helpers to generate and manipulate HTML contents.
 
