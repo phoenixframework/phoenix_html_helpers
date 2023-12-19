@@ -16,6 +16,8 @@ use PhoenixHTMLHelpers
 
 See the [docs](https://hexdocs.pm/phoenix_html_helpers/) for more information.
 
+This library is maintained for compatibility, but does not accept new features.
+
 ## License
 
 Copyright (c) 2014 Chris McCord
