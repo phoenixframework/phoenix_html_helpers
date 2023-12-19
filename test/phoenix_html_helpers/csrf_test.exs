@@ -1,4 +1,4 @@
-defmodule Phoenix.HTML.CSRFTest do
+defmodule PhoenixHTMLHelpers.CSRFTest do
   use ExUnit.Case, async: false
 
   import Phoenix.HTML
