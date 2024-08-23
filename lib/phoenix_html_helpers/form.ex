@@ -263,10 +263,6 @@ defmodule PhoenixHTMLHelpers.Form do
     html_escape([form_tag(action, form.options), fun.(form), raw("</form>")])
   end
 
-  @doc false
-  def inputs_for(form, field) when is_atom(field) or is_binary(field),
-    do: inputs_for(form, field, [])
-
   @doc """
   Generate a new form builder for the given parameter in form.
 
