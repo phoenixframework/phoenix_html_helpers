@@ -32,11 +32,6 @@ defmodule PhoenixHTMLHelpers.Form do
     bin |> String.replace("_", " ") |> :string.titlecase()
   end
 
-  @doc false
-  def form_for(form_data, action) do
-    form_for(form_data, action, [])
-  end
-
   @doc """
   Generates a form tag with a form builder and an anonymous function.
 
