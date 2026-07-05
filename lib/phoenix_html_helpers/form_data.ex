@@ -4,7 +4,7 @@ defimpl Phoenix.HTML.FormData, for: [Plug.Conn, Atom] do
     {errors, opts} = Keyword.pop(opts, :errors, [])
     id = Keyword.get(opts, :id) || name
 
-    unless is_binary(id) do
+    if not is_binary(id) do
       raise ArgumentError, ":id option in form_for must be a binary/string, got: #{inspect(id)}"
     end
 
